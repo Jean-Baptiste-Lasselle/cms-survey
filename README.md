@@ -13,6 +13,8 @@ il y en a un à part qui peut aussi jouer le rôle de grepasjs, et il a un compo
   * dans la doc officielle , il y a une partie qui parle du déploiement de l'infra cibel déploiement https://apostrophecms.org/docs/tutorials/intermediate/deployment.html
   * cette partie technique : montre qu'il n'y a pas de provision prête pour docker, je peux laider là dessus
   * il recomande d'utiliser NGINX et [mechanic](https://www.npmjs.com/package/mechanic), mechanic lui servant à mettre à jour la configration de NGINX, à chaque nouveau dépoiement de service (apoarrement fait par apostrophe lui-même) : et pourquoi pas traefik, parceque l'on voit que `mechanic` permet de faire des conf load balancer avec NGINX (et le cas est intéressant : modifier la conf NGINX depuis l'application elle-même...)
+  * autre chose, dans la même page de dock, checher `Minifying assets` : à cet endroit, il se trompe complètement, il dfait comme si l'environnement de déploieemnt du site web géénré avec Apostrophe, devait être hébergé sur ce même serveur... Ou alors il s'agit d'une sorte d'envrionnment de preprod... Sûr qu'il y a un truc à ajuster avec les pipelines là
+  * soit dit en passant, il n'a rien concernant ansible nonplus, iun vrai coup de main à donner.
   
   
 
