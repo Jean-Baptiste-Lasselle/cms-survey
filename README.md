@@ -28,7 +28,11 @@ Excellent ! Le framework va chercher le contenu sur GIT !!! selon une source, il
 
 ### Dato CMS et Vue.js (nuxt.js)
 
-https://www.youtube.com/watch?v=KdOQhTLHT0U
+* https://www.youtube.com/watch?v=KdOQhTLHT0U
+* [tutoriel github / test data CMS with VueJS](https://github.com/mcpll/dato)
+* https://github.com/biilmann/dato-cms-deploy-demo
+* https://github.com/javierarques/react-datocms   Example React app fetching dato from datocms
+* stop : dato n'est pas open source
+* dato est payant
 
-[tutoriel github / test data CMS with VueJS](https://github.com/mcpll/dato)
 
