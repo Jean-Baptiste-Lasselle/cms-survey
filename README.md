@@ -6,8 +6,9 @@ il y en a un à part qui peut aussi jouer le rôle de grepasjs, et il a un compo
 
 * Apostrophe CMS https://github.com/apostrophecms/apostrophe  
 * La partie CMS Headless aposrophe : https://github.com/apostrophecms/apostrophe-headless
-* Une recette pour installer apostrophe :  https://github.com/apostrophecms/apostrophe-sandbox
+* Une recette pour installer apostrophe :  https://github.com/apostrophecms/apostrophe-sandbox  
 * Un article pour essayer de faire lien avec GraphQL // https://medium.com/@apostrophecms/apostrophecms-3-0-the-work-begins-5cd7c95024b7
+* une bonne vidéo sur apostrophe https://www.youtube.com/watch?v=A8R2szAFul8
 
 
 # Headless
