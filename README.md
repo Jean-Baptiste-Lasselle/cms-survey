@@ -9,6 +9,12 @@ il y en a un à part qui peut aussi jouer le rôle de grepasjs, et il a un compo
 * Une recette pour installer apostrophe :  https://github.com/apostrophecms/apostrophe-sandbox  
 * Un article pour essayer de faire lien avec GraphQL // https://medium.com/@apostrophecms/apostrophecms-3-0-the-work-begins-5cd7c95024b7
 * une bonne vidéo sur apostrophe https://www.youtube.com/watch?v=A8R2szAFul8
+* il y a une opportunité là : 
+  * dans la doc officielle , il y a une partie qui parle du déploiement de l'infra cibel déploiement https://apostrophecms.org/docs/tutorials/intermediate/deployment.html
+  * cette partie technique : montre qu'il n'y a pas de provision prête pour docker, je peux laider là dessus
+  * il recomande d'utiliser NGINX et [mechanic](https://www.npmjs.com/package/mechanic), mechanic lui servant à mettre à jour la configration de NGINX, à chaque nouveau dépoiement de service (apoarrement fait par apostrophe lui-même) : et pourquoi pas traefik, parceque l'on voit que `mechanic` permet de faire des conf load balancer avec NGINX (et le cas est intéressant : modifier la conf NGINX depuis l'application elle-même...)
+  
+  
 
 
 # Headless
