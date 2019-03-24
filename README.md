@@ -1,4 +1,14 @@
+
+
 # cms-survey
+
+il y en a un à part qui peut aussi jouer le rôle de grepasjs, et il a un composant HEADLESS CMS, mais c'est clairr vu mes premières utilisations, que c'est du API-based CMS (et non du git based ) : 
+
+* apostrophe CMS
+* une recette pour installer apostrophe :  https://github.com/apostrophecms/apostrophe-sandbox
+
+
+# Headless
 
 Headless CMS case study comparing and uses cases of products in that galaxy
 
@@ -17,6 +27,7 @@ Il existe aujourd'hui 2 grands types de CMS :
 * les _`Git based CMS`_ :  Netlify en fait partie
 * les _`API-driven CMS`_ : 
   * Strapi en fait partie , 
+  * ouh celui là a l'air très très bon : https://github.com/ponzu-cms/ponzu 
   * mais il y a aussi https://github.com/agentejo/cockpit  
   * https://github.com/directus/directus
   * et celui-là je l'ai bien aimé dès le départ : https://github.com/daptin/daptin   la doc est bien orientée API, et immédiate citation de `GraphQL`
