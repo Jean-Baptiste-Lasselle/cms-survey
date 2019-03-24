@@ -10,6 +10,7 @@ Headless CMS case study comparing and uses cases of products in that galaxy
 * https://github.com/agentejo/cockpit
 * https://github.com/dadi/api
 
+
 ## Familles
 
 Il existe aujourd'hui 2 grands types de CMS : 
@@ -24,3 +25,10 @@ Il existe aujourd'hui 2 grands types de CMS :
 ### Netlify
 
 Excellent ! Le framework va chercher le contenu sur GIT !!! selon une source, il apparaîtrait que Netlify ne s'intègre que sur GITHUB, et pas encore GITLAB etc... pour l'authentification (ils parlent de GIT-GATEWAY), parce qu'il s'agit de la gateway de l'API gtihub
+
+### Dato CMS et Vue.js (nuxt.js)
+
+https://www.youtube.com/watch?v=KdOQhTLHT0U
+
+[tutoriel github / test data CMS with VueJS](https://github.com/mcpll/dato)
+
