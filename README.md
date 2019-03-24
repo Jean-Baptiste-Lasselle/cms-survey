@@ -4,8 +4,10 @@
 
 il y en a un à part qui peut aussi jouer le rôle de grepasjs, et il a un composant HEADLESS CMS, mais c'est clairr vu mes premières utilisations, que c'est du API-based CMS (et non du git based ) : 
 
-* apostrophe CMS
-* une recette pour installer apostrophe :  https://github.com/apostrophecms/apostrophe-sandbox
+* Apostrophe CMS https://github.com/apostrophecms/apostrophe  
+* La partie CMS Headless aposrophe : https://github.com/apostrophecms/apostrophe-headless
+* Une recette pour installer apostrophe :  https://github.com/apostrophecms/apostrophe-sandbox
+* Un article pour essayer de faire lien avec GraphQL // https://medium.com/@apostrophecms/apostrophecms-3-0-the-work-begins-5cd7c95024b7
 
 
 # Headless
