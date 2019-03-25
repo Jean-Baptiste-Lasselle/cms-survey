@@ -78,5 +78,6 @@ Notion de page de référence :
 * en fait il faudrait des classes CSS qui indiquent à l'utilisateur grapesjs, quel sont les éléments de pages qui seront nourris par l'API netlify derrière.
 * ça vaudrati le coup de faire le tests du même use case avec le duo gatsby / strapi, mais j'aurais le même problème de désignation des contenus répétables.
 * pour moi , c'est l'utilisateur grapesjs, qui doit indiquer qu'un conteneur doit être nourris par une API, et les classes CSS qu'il applqiue, me permettent de repérer les partiesà générer avec gatsby / netlify
-* Quelle est la forme des GAtsby templates ?
-
+* Quelle est la forme des GAtsby templates ? Comnt créer un `Gatsby Starter` :
+  * https://medium.com/@emasuriano/how-to-create-a-gatsby-starter-e7d53083a880
+  * 
