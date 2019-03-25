@@ -146,3 +146,10 @@ Le cycle devient :
 analytics et SEO à gérer comme d'hab pour spa , et pour les sites statiques, faire appel aux spécialistes, dans le pipe, aucune adhérence ac le travail des designer, et le pipeline de colllaboration avec le dev frontend
 * ds tous les cas l'équipe utilisera graphql, pour faire un backend for front end BFFF and Gatsby , au niveau du projet gatsby
 
+
+# Next Step 
+
+Pour aller plus loin, éclaicir la question `Comment fais-t-on pour modifier le design de la barre de navigation?`, avec Gatsby : 
+
+* https://www.gatsbyjs.org/docs/centralizing-your-sites-navigation/#using-the-header-component-to-display-the-navigation  React et Gatsby....? si je peux coller ça enmeteor, mon problème de référencement est réglé, et si je pex statiquement générer un site SPA, je veux voeir le use case...
+
