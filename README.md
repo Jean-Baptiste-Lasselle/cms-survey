@@ -58,3 +58,21 @@ Excellent ! Le framework va chercher le contenu sur GIT !!! selon une source, il
 * dato est payant
 
 
+# Okay 1ere reflexion
+
+il y a 2 choix : 
+* soit on fait une vraie SPA type angular meteor, et alors le HTML et le CSS sont générés pendant le Run, par la SPA, et alors le workflow repose sur el fait de pouvoir générer une SPA  à partir d'un template en pur HTML, et l'opération inverse (aspirer le client web, comme on aspire un site web)
+* soit on fait un worflow : templating statique grapesjs => génération d'un template valide pour gatsby, à partir du template HTML5  => traitement gatsby / netlify pour générer un site statique à partir du contenu stocké dans une API => aspiration du html css pour les [pages de référence du template HTML5](#notion-de-page-de-reference) => templating HTML5  statique grapesjs 
+
+### Notion de page de référence
+ 
+Notion de page de référence : 
+
+* reliée à une requête HTTP précise à envoyer, et le HTML est aspiré comme ça, même s'il y a une pagination et des "résultats suivants" à visulaiser
+* mais il reste la question de savoir quel est l'unité réptable de référence, pour cela grapesjs permetrait d'utiliser les classes CSS 
+* donc l'idée est qu'il faudrait ajouter une classe CSS qui indique lapartie répétable sur chaque éléent répété.
+* en fait il faudrait des classes CSS qui indiquent à l'utilisateur grapesjs, quel sont les éléments de pages qui seront nourris par l'API netlify derrière.
+* ça vaudrati le coup de faire le tests du même use case avec le duo gatsby / strapi, mais j'aurais le même problème de désignation des contenus répétables.
+* pour moi , c'est l'utilisateur grapesjs, qui doit indiquer qu'un conteneur doit être nourris par une API, et les classes CSS qu'il applqiue, me permettent de repérer les partiesà générer avec gatsby / netlify
+* Quelle est la forme des GAtsby templates ?
+
