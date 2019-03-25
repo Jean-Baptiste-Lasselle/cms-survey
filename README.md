@@ -1,4 +1,10 @@
+# TODO du mataîng
 
+* pipeline nodejs
+* pipeline meteor / enchaîné avec / yes oui can
+* pipeline robots de fusées
+* grapesjs storage manager
+* battle test nico's code
 
 # cms-survey
 
