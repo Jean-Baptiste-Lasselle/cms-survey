@@ -89,6 +89,7 @@ Le cycle devient :
   * bon, il faudra gérer la non collision des noms, en la repérant, et en proposant un `GARNISON_ID` généré, ou en propsant à l'utlisateur de saisir une valeur lui même pour `GARNISON_ID`, la saisie d'clenche le scna pour confirmer à l'utilisateur qu'il a bien choisis un identifiant de classe css sans collision ave le template.
   * Ok, maintenant que cet identifiant propre à la chaine de montage (pipeline), est apposé par le designer pour indiquer les parties CSS qu'il voit nourries par une API de content management  (Content delivery API...?), il peut utilsier d'autres noms de classes pour stipuler exactement, pour chaque API REST, dans quel bloc va quel champs;
   * ok, donc on aurait des classes CSS nommeés du genre `.garnison-$GARNISON_ID .api-id-$NETLIFY_API_ID .api-field-$API_FIELD_ID` : 
+  
   ```html
 <article class="forecast" >
     <h1>Weather forecast for Seattle</h1>
@@ -101,6 +102,7 @@ Le cycle devient :
     </article>
 </article>
   ```
+  
   pourrait générer : 
   
   ```html
