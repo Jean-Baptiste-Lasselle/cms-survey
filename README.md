@@ -151,5 +151,5 @@ analytics et SEO à gérer comme d'hab pour spa , et pour les sites statiques, f
 
 Pour aller plus loin, éclaicir la question `Comment fais-t-on pour modifier le design de la barre de navigation?`, avec Gatsby : 
 
-* https://www.gatsbyjs.org/docs/centralizing-your-sites-navigation/#using-the-header-component-to-display-the-navigation  React et Gatsby....? si je peux coller ça enmeteor, mon problème de référencement est réglé, et si je pex statiquement générer un site SPA, je veux voeir le use case...
+* https://www.gatsbyjs.org/docs/centralizing-your-sites-navigation/#using-the-header-component-to-display-the-navigation  React et Gatsby....? si je peux coller ça enmeteor, mon problème de référencement est réglé, et si je pex statiquement générer un site SPA, je veux voir le use case...
 
