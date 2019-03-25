@@ -91,6 +91,7 @@ Le cycle devient :
   * ok, donc on aurait des classes CSS nommeés du genre `.garnison-$GARNISON_ID .api-id-$NETLIFY_API_ID .api-field-$API_FIELD_ID` : 
   
   ```html
+
 <article class="forecast" >
     <h1>Weather forecast for Seattle</h1>
     <!-- I'd say export NETLIFY_API_ID=bulletin.forecast-api.io , you ...? -->
@@ -101,27 +102,9 @@ Le cycle devient :
         <p class="api-field-$API_FIELD_ID">Rain.</p>
     </article>
 </article>
+
   ```
-  
-  pourrait générer : 
-  
-  ```html
-<article class="forecast">
-    <h1>Weather forecast for Seattle</h1>
-    <article class="day-forecast">
-        <h2>03 March 2018</h2>
-        <p>Rain.</p>
-    </article>
-    <article class="day-forecast">
-        <h2>04 March 2018</h2>
-        <p>Periods of rain.</p>
-    </article>
-    <article class="day-forecast">
-        <h2>05 March 2018</h2>
-        <p>Heavy rain.</p>
-    </article>
-</article>
-  ```
+
   
 * l'équipe de dev, sa
 *   => traitement gatsby / netlify pour générer un site statique à partir du contenu stocké dans une API => aspiration du html css pour les [pages de référence du template HTML5](#notion-de-page-de-reference) => templating HTML5  statique grapesjs 
