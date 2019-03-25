@@ -142,3 +142,7 @@ Le cycle devient :
 
 * Les parties nourries par API, ne sont pas forcméent toujpurs des listes, ce peut être un contenu, que l'on veut changer via l'API, pour envoyer les changements en mode multi-canal, via plusieurs sites internet, tous gégéas ave ce modèle gatsby netlify augmenté de grapsjs
 *   => traitement gatsby / netlify pour générer un site statique à partir du contenu stocké dans une API => aspiration du html css pour les [pages de référence du template HTML5](#notion-de-page-de-reference) => templating HTML5  statique grapesjs 
+* et il faut une orchestration du backup restore principalement des version infra as code gatsby, et des bdd des Content Delivery REST API, quipermetteent de rétablir une version d'API dans un état donné, donc histrique des contenus délivrés.
+analytics et SEO à gérer comme d'hab pour spa , et pour les sites statiques, faire appel aux spécialistes, dans le pipe, aucune adhérence ac le travail des designer, et le pipeline de colllaboration avec le dev frontend
+* ds tous les cas l'équipe utilisera graphql, pour faire un backend for front end BFFF and Gatsby , au niveau du projet gatsby
+
