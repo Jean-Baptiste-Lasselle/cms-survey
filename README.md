@@ -155,5 +155,24 @@ Pour aller plus loin, éclaicir la question `Comment fais-t-on pour modifier le 
 
 https://www.gatsbyjs.org/docs/sourcing-from-netlify-cms/  = recette gatsby /netlify
 
+versionnig des models api créées dans netlify : 
+
+* je ne sais pas encore comment versionner les models (les modèles de données de chaque endpoint de l'API, le swagger...)
+* je sais ceci quenetlify cms est spécifiquement prévu pour les générateurs de sites statiques comme gatsby, je cite : https://github.com/netlify/netlify-cms#netlify-cms : 
+
+> A CMS for static site generators. Give non-technical users a simple way to edit and add content to any site built with a static site generator
+
+* Je cite https://www.netlifycms.org/docs/intro/#netlify-cms-vs-netlify : 
+> The folks at Netlify created Netlify CMS to fill a gap in the static site generation pipeline. 
+> With this in mind, you can:
+> 
+> * Use Netlify CMS without Netlify and deploy your site where you always have, hooking up your own CI, site hosting, CDN, etc.
+> * Use Netlify without Netlify CMS and edit your static site in your code editor.
+> * Or, use them together and have a fully-working CMS-enabled site with one click!
+> 
+
+_Leur objecif est donc bien un **pipeline**, qui implique des "**non-technical users**"_
+
+
 
 
