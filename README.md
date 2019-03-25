@@ -17,6 +17,8 @@ il y en a un à part qui peut aussi jouer le rôle de grepasjs, et il a un compo
   * soit dit en passant, il n'a rien concernant ansible nonplus, iun vrai coup de main à donner.
   
   
+ Pour régler al question strapi, je vis le balancer dans un réseau complètement fermé, et analyser si ej peux reconstruire un ocde source à partir duquel faire le build , et obtenir le poulet que j'ai fait fonctionner dans un résau fermé Ensuite, je vais comparer le code source que j'ai reconstitué, (ou exposer les obestructions à retrouver le code source), à la version exposée https://github.com/strapi/strapi, qui d'apreès son `README.md` permet de reconstruire l'artefact distribué par `npm install -g strapi@latest`
+  
 
 
 # Headless
