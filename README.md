@@ -153,3 +153,7 @@ Pour aller plus loin, éclaicir la question `Comment fais-t-on pour modifier le 
 
 * https://www.gatsbyjs.org/docs/centralizing-your-sites-navigation/#using-the-header-component-to-display-the-navigation  React et Gatsby....? si je peux coller ça enmeteor, mon problème de référencement est réglé, et si je pex statiquement générer un site SPA, je veux voir le use case...
 
+https://www.gatsbyjs.org/docs/sourcing-from-netlify-cms/  = recette gatsby /netlify
+
+
+
