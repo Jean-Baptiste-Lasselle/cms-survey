@@ -64,6 +64,10 @@ il y a 2 choix :
 * soit on fait une vraie SPA type angular meteor, et alors le HTML et le CSS sont générés pendant le Run, par la SPA, et alors le workflow repose sur el fait de pouvoir générer une SPA  à partir d'un template en pur HTML, et l'opération inverse (aspirer le client web, comme on aspire un site web)
 * soit on fait un worflow : templating statique grapesjs => génération d'un template valide pour gatsby, à partir du template HTML5  => traitement gatsby / netlify pour générer un site statique à partir du contenu stocké dans une API => aspiration du html css pour les [pages de référence du template HTML5](#notion-de-page-de-reference) => templating HTML5  statique grapesjs 
 
+À propos des SPA , et de Gatsby (à étendre à tous ces CMS Headless, qui génère des sites statiques surla base d'un contenu envoyé par une API, par exemple unsite régénéré toutes les nuits), un avis d'un des membres de l'équiep Gatsby qui confirme mon analyse : 
+
+[![équipe gatsby confirme mon analyse](https://github.com/Jean-Baptiste-Lasselle/cms-survey/raw/master/documentations/images/CMS_GATSBY_AND_SPA_2019-03-25%2001-32-03.png)](https://github.com/gatsbyjs/gatsby/issues/3539#issuecomment-357793051)
+
 ### Notion de page de référence
  
 Notion de page de référence : 
