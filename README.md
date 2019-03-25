@@ -182,5 +182,7 @@ versionnig des models api créées dans netlify :
 _Leur objecif est donc bien un **pipeline**, qui implique des "**non-technical users**"_
 
 
+* Pour le workflow j'ai aussi une bonne ressource sur la phase " générer une SPA / applicationangular à partir d'un template pur _{HTML / CSS / images / fonts}_ : 
 
+  * https://blog.angularindepth.com/creating-your-own-application-template-for-angular-cli-95e22319cc24
 
