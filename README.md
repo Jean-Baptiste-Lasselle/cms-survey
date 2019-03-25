@@ -81,3 +81,45 @@ Notion de page de référence :
 * Quelle est la forme des GAtsby templates ? Comnt créer un `Gatsby Starter` :
   * https://medium.com/@emasuriano/how-to-create-a-gatsby-starter-e7d53083a880
   * 
+
+Le cycle devient : 
+
+* tédition HTML5/css grapesjs : la personne doit être formée à marquer les éléments nourris par l'API, à l'aide d'une classe css, que l'appellerai `.garnison`. Le template HTML attapé par le designer, qu'il a mis dans un repo git, est alors automatiquement scanné, pour voir s'il contient une classe CSS déclarée avc le nom `garnison` : 
+  * s'il en contient uen, le designer est alerté, et il lui et demandé d'utiliser non pas le nom de classe `.garnison`, mais le nom de classe `.garnison-$GARNISON_ID`, où `GARNISON_ID` est une valeur aléatoire générée, pas trop compliquée (4 chiffres devraient suffire, sinon le designer contacte l'équipe dev pour modifier le tempalte HTML5 avant de re partir dans el workflow), et qui est générée autant de fois que nécessaire, pour qu'il n'ya ait aucune redondnance avec les identitifaints utilisés dans le 
+  * bon, il faudra gérer la non collision des noms, en la repérant, et en proposant un `GARNISON_ID` généré, ou en propsant à l'utlisateur de saisir une valeur lui même pour `GARNISON_ID`, la saisie d'clenche le scna pour confirmer à l'utilisateur qu'il a bien choisis un identifiant de classe css sans collision ave le template.
+  * Ok, maintenant que cet identifiant propre à la chaine de montage (pipeline), est apposé par le designer pour indiquer les parties CSS qu'il voit nourries par une API de content management  (Content delivery API...?), il peut utilsier d'autres noms de classes pour stipuler exactement, pour chaque API REST, dans quel bloc va quel champs;
+  * ok, donc on aurait des classes CSS nommeés du genre `.garnison-$GARNISON_ID .api-id-$NETLIFY_API_ID .api-field-$API_FIELD_ID` : 
+  ```html
+<article class="forecast" >
+    <h1>Weather forecast for Seattle</h1>
+    <!-- I'd say export NETLIFY_API_ID=bulletin.forecast-api.io , you ...? -->
+    <article class="day-forecast garnison-$GARNISON_ID api-id-$NETLIFY_API_ID">
+        <!-- I'd say export API_FIELD_ID=forecast_datetime, name of the field created with Netlify, you ...? -->
+        <h2 class="api-field-$API_FIELD_ID">03 March 2018</h2>
+        <!-- I'd say export API_FIELD_ID=forecast_bulletin, name of the field created with Netlify, you ...? -->
+        <p class="api-field-$API_FIELD_ID">Rain.</p>
+    </article>
+</article>
+  ```
+  pourrait générer : 
+  
+  ```html
+<article class="forecast">
+    <h1>Weather forecast for Seattle</h1>
+    <article class="day-forecast">
+        <h2>03 March 2018</h2>
+        <p>Rain.</p>
+    </article>
+    <article class="day-forecast">
+        <h2>04 March 2018</h2>
+        <p>Periods of rain.</p>
+    </article>
+    <article class="day-forecast">
+        <h2>05 March 2018</h2>
+        <p>Heavy rain.</p>
+    </article>
+</article>
+  ```
+  
+* l'équipe de dev, sa
+*   => traitement gatsby / netlify pour générer un site statique à partir du contenu stocké dans une API => aspiration du html css pour les [pages de référence du template HTML5](#notion-de-page-de-reference) => templating HTML5  statique grapesjs 
