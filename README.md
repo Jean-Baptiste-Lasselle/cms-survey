@@ -41,21 +41,33 @@ Headless CMS case study comparing and uses cases of products in that galaxy
 > COPE stands for Create Once, Publish Everywhere  (cf. https://dadi.cloud/en/knowledge/web-services/api-first-and-cope/ )
 
 
-# Nouveau préféré : dadi
+# Mes préférés : dadi et daptin
+
+## Dadi 
 
 J'aime : 
 
-* le fait qu'il font une vraie solution pure API-first
+* Le fait qu'il font une vraie solution pure API-first
+* Il est développé, et tous ses composants, en `NodeJS`
 * qui est clairement dans l'apporche que je veux mettre en oeuvre (COPE)
-* et dis-donc, ils fournissent aussi plusieurs choses, sur github : 
-  * un CDN que je peux utiliser dans mes pipelines de chevaux ! https://github.com/dadi/cdn
+* Et dis-donc, ils fournissent aussi plusieurs choses, sur github : 
+  * Un CDN que je peux utiliser dans mes pipelines de chevaux ! https://github.com/dadi/cdn (j'ai aussi https://github.com/Jean-Baptiste-Lasselle/fruity-unpkg.com pour cdn des pipelines)
   * https://github.com/dadi/
-  * documentation automatique des APIs générées avec dadi : https://github.com/dadi/apidoc  (à modifier pour faire une génration de documentation de type swagger Open API (et bingo, je ne suis pas le seulà le penser : https://github.com/dadi/apidoc/issues/11 )
+  * Documentation automatique des APIs générées avec dadi : https://github.com/dadi/apidoc  (à modifier pour faire une génration de documentation de type swagger Open API (et bingo, je ne suis pas le seulà le penser : https://github.com/dadi/apidoc/issues/11 )
 
 La solution me paraît bien plus simple que certaines autres dantesques (pour quelque chose d'aussi spécialisé et clair, fonctionnelelemnt, on veut pouvoir créer des APIs, en veux-tu en voilà)
+
 l'issue https://github.com/dadi/apidoc/issues/11 laisse à penser que DADI est OpenAPI compliant, with guarantee
 
+## Daptin
 
+
+Il semblent avoir les mêmes caractérisques que DAID, masi la différence, c'est que j'ai immédiatement trouvé : 
+* un déploiemnt docker
+* un déploiement docker-compose
+* un déploiement kubernetes
+
+et ils sont sacrément bien classés dans le classemnt effetué par les métriques social networking de github
 
 
 ## Familles
@@ -65,8 +77,8 @@ Il existe aujourd'hui 2 grands types de CMS :
 * les _`API-driven CMS`_ : 
   * Strapi en fait partie , 
   * ouh celui là a l'air très très bon : https://github.com/ponzu-cms/ponzu 
-  * mais il y a aussi https://github.com/agentejo/cockpit  
-  * https://github.com/directus/directus
+  * mais il y a aussi https://github.com/agentejo/cockpit  (exclut, a comme pre-requisistes PHP)
+  * https://github.com/directus/directus  (je n'aime pas leurs docs et leurs vidéos trop orientées monde PHP, encore à cause de wordpress)
   * et celui-là je l'ai bien aimé dès le départ : https://github.com/daptin/daptin   la doc est bien orientée API, et immédiate citation de `GraphQL`
   
 
