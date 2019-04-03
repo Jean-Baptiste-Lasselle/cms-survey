@@ -23,7 +23,7 @@ il y en a un à part qui peut aussi jouer le rôle de grepasjs, et il a un compo
   * soit dit en passant, il n'a rien concernant ansible nonplus, iun vrai coup de main à donner.
   
   
- Pour régler al question strapi, je vis le balancer dans un réseau complètement fermé, et analyser si ej peux reconstruire un ocde source à partir duquel faire le build , et obtenir le poulet que j'ai fait fonctionner dans un résau fermé Ensuite, je vais comparer le code source que j'ai reconstitué, (ou exposer les obestructions à retrouver le code source), à la version exposée https://github.com/strapi/strapi, qui d'apreès son `README.md` permet de reconstruire l'artefact distribué par `npm install -g strapi@latest`
+ Pour régler la question strapi, je vis le balancer dans un réseau complètement fermé, et analyser si ej peux reconstruire un code source à partir duquel faire le build , et obtenir le poulet que j'ai fait fonctionner dans un résau fermé Ensuite, je vais comparer le code source que j'ai reconstitué, (ou exposer les obestructions à retrouver le code source), à la version exposée https://github.com/strapi/strapi, qui d'apreès son `README.md` permet de reconstruire l'artefact distribué par `npm install -g strapi@latest`
   
 
 
@@ -55,7 +55,7 @@ J'aime :
   * https://github.com/dadi/
   * Documentation automatique des APIs générées avec dadi : https://github.com/dadi/apidoc  (à modifier pour faire une génération de documentation de type swagger Open API (et bingo, je ne suis pas le seulà le penser : https://github.com/dadi/apidoc/issues/11 )
 
-La solution me paraît bien plus simple que certaines autres dantesques (pour quelque chose d'aussi spécialisé et clair, fonctionnelelemnt, on veut pouvoir créer des APIs, en veux-tu en voilà)
+La solution me paraît bien plus simple que certaines autres dantesques (pour quelque chose d'aussi spécialisé et clair, fonctionnellement, on veut pouvoir créer des APIs, en veux-tu en voilà)
 
 L'issue https://github.com/dadi/apidoc/issues/11 laisse à penser que DADI est OpenAPI compliant, with guarantee
 
@@ -75,7 +75,7 @@ Il semblent avoir les mêmes caractérisques que DAID, masi la différence, c'es
 
 et ils sont sacrément bien classés dans le classemnt effetué par les métriques social networking de github
 
-Update !! : J'ai testé le docker-compose, ait réussit à lancer l'application, j'ai pu créer une API, mais lorsque j'ai voulu ajouter des items dans l'API (le modèle était créé), je suis tombé sur un tas de trucs bizarres dans la UI, des éléments de fonctionnements vriaemnt pas logiques, et au final, impossible de créer le moindre item de contenu...
+Update !! : cf [`./experiments/daptin/1`](./experiments/daptin/1) J'ai testé le docker-compose, ait réussit à lancer l'application, j'ai pu créer une API, mais lorsque j'ai voulu ajouter des items dans l'API (le modèle était créé), je suis tombé sur un tas de trucs bizarres dans la UI, des éléments de fonctionnements vriaemnt pas logiques, et au final, impossible de créer le moindre item de contenu...
 
 
 
