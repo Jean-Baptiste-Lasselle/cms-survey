@@ -53,11 +53,16 @@ J'aime :
 * Et dis-donc, ils fournissent aussi plusieurs choses, sur github : 
   * Un CDN que je peux utiliser dans mes pipelines de chevaux ! https://github.com/dadi/cdn (j'ai aussi https://github.com/Jean-Baptiste-Lasselle/fruity-unpkg.com pour cdn des pipelines)
   * https://github.com/dadi/
-  * Documentation automatique des APIs générées avec dadi : https://github.com/dadi/apidoc  (à modifier pour faire une génration de documentation de type swagger Open API (et bingo, je ne suis pas le seulà le penser : https://github.com/dadi/apidoc/issues/11 )
+  * Documentation automatique des APIs générées avec dadi : https://github.com/dadi/apidoc  (à modifier pour faire une génération de documentation de type swagger Open API (et bingo, je ne suis pas le seulà le penser : https://github.com/dadi/apidoc/issues/11 )
 
 La solution me paraît bien plus simple que certaines autres dantesques (pour quelque chose d'aussi spécialisé et clair, fonctionnelelemnt, on veut pouvoir créer des APIs, en veux-tu en voilà)
 
-l'issue https://github.com/dadi/apidoc/issues/11 laisse à penser que DADI est OpenAPI compliant, with guarantee
+L'issue https://github.com/dadi/apidoc/issues/11 laisse à penser que DADI est OpenAPI compliant, with guarantee
+
+
+Par contre l'essai avec DADI API est fort encourageant : https://github.com/Jean-Baptiste-Lasselle/dadi-cms/
+
+
 
 ## Daptin
 
@@ -69,6 +74,8 @@ Il semblent avoir les mêmes caractérisques que DAID, masi la différence, c'es
 * cf https://daptin.github.io/docs/setting-up/installation/  (ils ont uune super doc)
 
 et ils sont sacrément bien classés dans le classemnt effetué par les métriques social networking de github
+
+Update !! : J'ai testé le docker-compose, ait réussit à lancer l'application, j'ai pu créer une API, mais lorsque j'ai voulu ajouter des items dans l'API (le modèle était créé), je suis tombé sur un tas de trucs bizarres dans la UI, des éléments de fonctionnements vriaemnt pas logiques, et au final, impossible de créer le moindre item de contenu...
 
 
 
