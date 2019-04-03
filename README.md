@@ -36,7 +36,7 @@ Headless CMS case study comparing and uses cases of products in that galaxy
 * netlify (trè sbonne intégration avec  `Gitbook` / avec Jekyll)  (celui-là je vais l'utiliser pur les workflow GIT, je pense pour les pieplines, il est très orienté git workflow)
 * gatsby (see. https://github.com/Jean-Baptiste-Lasselle/gatsby-contentful-starter )
 * https://github.com/directus/directus (celuilà j'ai beaucoup aimé la clareté de la doc, et il y a la quesytion de la délégation des permissions, à l'API gateway Gravitee.io
-* https://github.com/agentejo/cockpit
+* https://github.com/agentejo/cockpit : exclut, je ne veux pas voir de PHP.
 * https://github.com/dadi/api
 
 
