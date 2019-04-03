@@ -66,8 +66,10 @@ Il semblent avoir les mêmes caractérisques que DAID, masi la différence, c'es
 * un déploiemnt docker
 * un déploiement docker-compose
 * un déploiement kubernetes
+* cf https://daptin.github.io/docs/setting-up/installation/  (ils ont uune super doc)
 
 et ils sont sacrément bien classés dans le classemnt effetué par les métriques social networking de github
+
 
 
 ## Familles
