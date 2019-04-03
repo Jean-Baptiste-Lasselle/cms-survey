@@ -37,7 +37,25 @@ Headless CMS case study comparing and uses cases of products in that galaxy
 * gatsby (see. https://github.com/Jean-Baptiste-Lasselle/gatsby-contentful-starter )
 * https://github.com/directus/directus (celuilà j'ai beaucoup aimé la clareté de la doc, et il y a la quesytion de la délégation des permissions, à l'API gateway Gravitee.io
 * https://github.com/agentejo/cockpit : exclut, je ne veux pas voir de PHP.
-* https://github.com/dadi/api
+* https://github.com/dadi/api : C'est bien un CMS pur API driven : 
+> COPE stands for Create Once, Publish Everywhere  (cf. https://dadi.cloud/en/knowledge/web-services/api-first-and-cope/ )
+
+
+# Nouveau préféré : dadi
+
+J'aime : 
+
+* le fait qu'il font une vraie solution pure API-first
+* qui est clairement dans l'apporche que je veux mettre en oeuvre (COPE)
+* et dis-donc, ils fournissent aussi plusieurs choses, sur github : 
+  * un CDN que je peux utiliser dans mes pipelines de chevaux ! https://github.com/dadi/cdn
+  * https://github.com/dadi/
+  * documentation automatique des APIs générées avec dadi : https://github.com/dadi/apidoc  (à modifier pour faire une génration de documentation de type swagger Open API (et bingo, je ne suis pas le seulà le penser : https://github.com/dadi/apidoc/issues/11 )
+
+La solution me paraît bien plus simple que certaines autres dantesques (pour quelque chose d'aussi spécialisé et clair, fonctionnelelemnt, on veut pouvoir créer des APIs, en veux-tu en voilà)
+l'issue https://github.com/dadi/apidoc/issues/11 laisse à penser que DADI est OpenAPI compliant, with guarantee
+
+
 
 
 ## Familles
