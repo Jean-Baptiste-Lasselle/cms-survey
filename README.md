@@ -218,3 +218,35 @@ _Leur objecif est donc bien un **pipeline**, qui implique des "**non-technical u
 
   * https://blog.angularindepth.com/creating-your-own-application-template-for-angular-cli-95e22319cc24
 
+
+# Une présentation de référence
+
+La vidéo https://www.youtube.com/watch?v=KX4G49ZrvY0 présente très bien le concept de CMS Headless, le contexte et les raisons de son émergence.
+
+Clairmeent, l'enjeu est au niveau d la collaboration entre Infra et Dev, et la présentation montre comment ces dernières années,  celui qu souffre de la situation est le client.
+
+
+* Pour les headless CMS, il y a 2 modèles, les Git based, et les API driven
+* La vidéo https://www.youtube.com/watch?v=KX4G49ZrvY0 présente 2 worklflow :
+  * un workflow qui vaut pour les stacks reposant sur un `Git based  CMS`
+  * un workflow qui vaut pour les stacks reposant sur un `API driven CMS`
+* Le gars dans https://www.youtube.com/watch?v=KX4G49ZrvY0 montrent en quoi ces 2 approches apportent un gain en sécurité, en "mental load" (c'est à dire à quel pint il est facile de se plonger dans le stack technos) 
+* il dit qu'il y a un gain en sécurité, par ceuqe dasn les 2 cas, on a exaxctement 4 points bien précis à sécuriser, et que dans tous les cas, si un point est compromis, la compriissions poeut être compartimentée comme dans les sous marins.
+* un autre argument pour la sécurité : le problème avc ces _plugin-based solutions_, (wordpress a un modèle économique basé sur les plugins wordpress) , c'est que le datacenter, s'il fait confiance à wordpress en termes de sécurité, mais les clients voudront, sur une base imprévisible, spécifique à chaque user, et sans dialogue avec le datacenter, déployer des plugins wordpress qui peuvent tous petentiellement amener leurs failles de sécurité. Les 2 approches CMS Headless, permettent de se débarrser de cela, il n'y a plus de familles de plugins qui peuvent être déployés par les clients du datacenter.
+* Pour montrer le gain en "mental load",il faudrait fair le comparatif entre les vieux workflows CMS, et ces deux nouveaux types de workflow.
+
+IL FAUT , expérimenter au moins un workflow dans chacune des ces deux approches.
+
+> Security for the CMS becomes a no-brainer
+
+#### Vocabulaire :  The JAM Stack
+
+Typiquement associé au mode du dev front end , pas forcément unqiuement les CMS : 
+
+> [JAMstack](#): noun `\’jam-stak’\`
+> Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup.
+
+Sur https://jamstack.org , on trouve : 
+* un livret de bonne pratiques. https://jamstack.org/best-practices/
+* d'excellent  exemples https://jamstack.org/examples/
+* de l'organisation évènementielle https://jamstack.org/community/  (u meeetup par grande ville, il y a Londres et Paris.
