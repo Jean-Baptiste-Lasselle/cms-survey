@@ -1,10 +1,12 @@
 # TODO du mataîng
 
 * pipeline nodejs
-* pipeline meteor / enchaîné avec / yes oui can
+* pipeline meteor / enchaîné avec / yes oui can[^1]
 * pipeline robots de fusées
 * grapesjs storage manager
 * battle test nico's code
+This is a footnote.
+
 
 # cms-survey
 
@@ -257,3 +259,7 @@ Sur https://jamstack.org , on trouve :
 * un livret de bonne pratiques. https://jamstack.org/best-practices/
 * d'excellent  exemples https://jamstack.org/examples/
 * de l'organisation évènementielle https://jamstack.org/community/  (u meeetup par grande ville, il y a Londres et Paris.
+
+
+
+[^1]: ah oui, effectuvement.
