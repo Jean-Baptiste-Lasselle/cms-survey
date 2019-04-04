@@ -1,7 +1,7 @@
 # TODO du mataîng
 
 * pipeline nodejs
-* pipeline meteor / enchaîné avec / yes oui can[^1]
+* pipeline meteor / enchaîné avec / yes oui can
 * pipeline robots de fusées
 * grapesjs storage manager
 * battle test nico's code
@@ -262,4 +262,3 @@ Sur https://jamstack.org , on trouve :
 
 
 
-[^1]: ah oui, effectuvement.
