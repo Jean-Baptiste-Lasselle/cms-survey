@@ -46,6 +46,8 @@ Headless CMS case study comparing and uses cases of products in that galaxy
 * https://github.com/dadi/api : C'est bien un CMS pur API driven : 
 > COPE stands for Create Once, Publish Everywhere  (cf. https://dadi.cloud/en/knowledge/web-services/api-first-and-cope/ )
 
+* getcockpit : an API driven CMS
+* forestry : a CMS.... of what kind?
 
 # Mes préférés : dadi et daptin
 
