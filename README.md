@@ -266,5 +266,7 @@ Sur https://jamstack.org , on trouve :
 * d'excellent  exemples https://jamstack.org/examples/
 * de l'organisation évènementielle https://jamstack.org/community/  (u meeetup par grande ville, il y a Londres et Paris.
 
+# Middleman : a static site generator
 
+https://middlemanapp.com/
 
