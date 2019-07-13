@@ -270,3 +270,12 @@ Sur https://jamstack.org , on trouve :
 
 https://middlemanapp.com/
 
+# ANNEXE : `hexo.io` CMS
+
+En faisant mes petites recherches sur `hugo`, je suis tombé sur un autre `static site generator`, celui-là spécialisé production de blogs : 
+
+* https://hexo.io
+* il est écrit en nodejs manifestement
+* il a des chiffres communautaires énormes (plsu de `20 000` stars sur github ).
+* il a direct des plugins qui permetteent de faire de l'inclusion de formules latex dnas les pages générées : https://www.npmjs.com/package/hexo-static-math 
+* il semble qu'il ait, comme Gatsby, un système d'extension, avec plugin, bien plus fort que `hugo`
